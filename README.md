@@ -32,8 +32,9 @@ Building
 
 Directives
 ==========
+
+```
 auth_wsse
-~~~~~~~~~~~
 :Syntax:  ``auth_wsse`` [*realm-name* | ``off``]
 :Default: ``off``
 :Context: server, location
@@ -44,4 +45,4 @@ auth_wsse
   
   To selectively disable authentication within a protected uri hierarchy, set ``auth_wsse`` 
   to “``off``” within a more-specific location block (see example).
-  
+```
